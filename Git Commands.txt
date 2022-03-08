@@ -1,0 +1,18 @@
+GIT COMMANDS*********************************************
+1)[ GIT INIT ]: USED FOR INITIALIZING OR CREATING A LOCAL REPOSITORY.
+2)[ GIT ADD . ]: FOR UPDATING THE FILES ON REMOTE REPO ; INSTEAD OF ALL FILES IF U WANT TO ADD INDIVIDUAL FILES ON REPO THEN U CAN USE THE NAME INSTEAD OF FULL STOP.
+3)[ GIT COMMIT -m "Here message" ]: IT WILL COMMIT ALL UR WORK.
+4)[ GIT STATUS ]:displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.
+5)[ GIT LOG --ONELINE ]:The oneline option is used to display the output as one commit per line. It also shows the output in brief like the first seven characters of the commit SHA and the commit message.
+6)[ GIT FETCH ]: git fetch is a primary command used to download contents from a remote repository. git fetch is used in conjunction with git remote , git branch , git checkout , and git reset to update a local repository to the state of a remote.
+7)[ GIT MERGE origin master ]: used to merge all the remote repository changes into local ones.
+8)[ git pull origin master ]: pull changes from the origin remote, master branch and merge them to the local checked-out branch {git pull = git fetch + git mege}.
+9)[ git remote add <name> <link> ]:It will connect local repo with remote remo.
+10)[ git push <name> master]: Push all the files to remote repo.
+11)[ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY ] : Make a copy of local repo into another location u want.
+
+👋 Hi, I’m @GOURBOY
+👀 I’m interested in JAVA
+🌱 I’m currently Well versed in MERN technolgy and JAVASCRIPT.HTML5.CSS Android development, Cpp,C, Java,Python nd Competitve Programming.
+💞️ I’m looking to collaborate on JAVA BASED APPLICATIONS
+📫 How to reach me _ DROP A MAIL ON ABHAYGOUR20253@ACROPOLIS.IN
