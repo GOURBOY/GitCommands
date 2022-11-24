@@ -10,7 +10,21 @@ GIT COMMANDS*********************************************
 9)[ git remote add <name> <link> ]:It will connect local repo with remote remo.
 10)[ git push <name> master]: Push all the files to remote repo.
 11)[ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY ] : Make a copy of local repo into another location u want.
-
+********[For Downloading Contents from Remote Repository]**********
+{	1] git remote add <name> <link>
+	2] git pull <name> master
+[if any error then use - "git clean -d -f" then again [2]]
+	3] git add.
+	4] git commit -m <"message">
+	5] git push <name> master
+*********Example******************
+	git remote add origin master
+	git pull origin master 
+[if any error then use - "git clean -d -f" then again [2]]
+	git add .
+	git commit -m "helo"
+	git push origin master
+}
 👋 Hi, I’m @GOURBOY
 👀 I’m interested in JAVA
 🌱 I’m currently Well versed in MERN technolgy and JAVASCRIPT.HTML5.CSS Android development, Cpp,C, Java,Python nd Competitve Programming.
