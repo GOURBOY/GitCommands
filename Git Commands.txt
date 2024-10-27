@@ -10,6 +10,24 @@ GIT COMMANDS*********************************************
 9)[ git remote add <name> <link> ]:It will connect local repo with remote remo.
 10)[ git push <name> master]: Push all the files to remote repo.
 11)[ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY ] : Make a copy of local repo into another location u want.
+************************************************************************************************************************************
+Best Way To initialize a local repo and connect it with remote repo then download its content is: 
+	
+	git clean -d -f
+
+	git init
+
+	git remote add <Repo name-  origin> <Remote repo Url>
+
+	git add . 
+	
+	git commit -m "Com"
+
+	git pull origin master
+ 
+		
+
+************************************************************************************************************************************
 ********[For Downloading Contents from Remote Repository]**********
 {	1] git remote add <name> <link>
 	2] git pull <name> master
