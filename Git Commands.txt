@@ -1,0 +1,120 @@
+GIT COMMANDS*********************************************
+1)[ GIT INIT ]: USED FOR INITIALIZING OR CREATING A LOCAL REPOSITORY.
+2)[ GIT ADD . ]: FOR UPDATING THE FILES ON REMOTE REPO ; INSTEAD OF ALL FILES IF U WANT TO ADD INDIVIDUAL FILES ON REPO THEN U CAN USE THE NAME INSTEAD OF FULL STOP.
+3)[ GIT COMMIT -m "Here message" ]: IT WILL COMMIT ALL UR WORK.
+4)[ GIT STATUS ]:displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.
+5)[ GIT LOG --ONELINE ]:The oneline option is used to display the output as one commit per line. It also shows the output in brief like the first seven characters of the commit SHA and the commit message.
+6)[ GIT FETCH ]: git fetch is a primary command used to download contents from a remote repository. git fetch is used in conjunction with git remote , git branch , git checkout , and git reset to update a local repository to the state of a remote.
+7)[ GIT MERGE origin master ]: used to merge all the remote repository changes into local ones.
+8)[ git pull origin master ]: pull changes from the origin remote, master branch and merge them to the local checked-out branch {git pull = git fetch + git mege}.
+9)[ git remote add <name> <link> ]:It will connect local repo with remote remo.
+10)[ git push <name> master]: Push all the files to remote repo.
+11)[ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY ] : Make a copy of local repo into another location u want.
+********[For Downloading Contents from Remote Repository]**********
+{	1] git remote add <name> <link>
+	2] git pull <name> master
+[if any error then use - "git clean -d -f" then again [2]]
+	3] git add.
+	4] git commit -m <"message">
+	5] git push <name> master
+*********Example******************
+	git remote add origin master
+	git pull origin master 
+[if any error then use - "git clean -d -f" then again [2]]
+	git add .
+	git commit -m "helo"
+	git push origin master
+}
+
+*************************************************************************************
+FOR VARIOUS ISUES IN GIT------------------------
+{
+[[[
+Steps to Fix the src refspec master does not match any Error:
+Steps to Fix the src refspec master does not match any Error:
+Check the Current Branch: Run the following command to verify that you're on a branch:
+
+bash
+Copy code
+git branch
+If you see no branch listed, it means no branch has been created yet. You might be in a "detached HEAD" state.
+
+Ensure You Have Made a Commit: If you haven’t made any commits yet, Git won't have anything to push. First, check the status of your repository:
+
+bash
+Copy code
+git status
+If there are files listed as "untracked" or "modified," you need to stage and commit them before pushing. Do the following:
+
+Stage all files:
+
+bash
+Copy code
+git add .
+Then, commit your changes:
+
+bash
+Copy code
+git commit -m "Initial commit"
+Push to the Correct Branch: Once you’ve committed your changes, you can push to the main branch (or master if you're using that):
+
+If your branch is main:
+
+bash
+Copy code
+git push origin main
+If your branch is master:
+
+bash
+Copy code
+git push origin master
+Check Remote Branches: If the problem persists, check if your remote branches are set up correctly:
+
+bash
+Copy code
+git remote -v
+Ensure the URL matches your repository (https://github.com/GOURBOY/MY_PORTFOLIO_2024.git).
+
+If There Is No Local Branch: If you see no branches when you run git branch, you can create the branch manually:
+
+For main:
+
+bash
+Copy code
+git checkout -b main
+git push origin main
+For master:
+
+bash
+Copy code
+git checkout -b master
+git push origin master
+
+--------------------------------------------------------------------
+In simple : 
+1] git init 
+2] git add .
+3] git commit -m "Initial Commit"
+4] git remote add origin [link]
+5] git push origin master
+
+]]]
+For the Issue of not getting Master repository-------------------------------------------------------
+1) Rename the Local Branch: If your local branch is currently named main, you can rename it to master: git branch -m main master
+2) Push the master Branch to the Remote Repository: Push the newly renamed master branch to the remote: git push -u origin master
+Or 
+	Switch to the master branch (if you’re not on it already): git checkout master
+
+	Delete the main branch locally (if you no longer need it): git branch -d main
+	
+	Set the remote master branch as your default:	git push -u origin master
+
+
+
+}
+👋 Hi, I’m @GOURBOY
+👀 I’m interested in JAVA
+🌱 I’m currently Well versed in MERN technolgy and JAVASCRIPT.HTML5.CSS Android development, Cpp,C, Java,Python nd Competitve Programming.
+💞️ I’m looking to collaborate on JAVA BASED APPLICATIONS
+📫 How to reach me _ DROP A MAIL ON ABHAYGOUR20253@ACROPOLIS.IN
+Hey
